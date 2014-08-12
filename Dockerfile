@@ -16,4 +16,4 @@ RUN apt-get upgrade -y
 RUN apt-get install -y ssh screen vim
 
 #Install build environment
-RUN apt-get install -y build-essential devscripts fakeroot quilt dh-make automake libdistro-info-perl less nano debhelper lintian sudo cmake dmake patch patchutils debtags
+RUN apt-get install -y build-essential devscripts fakeroot quilt dh-make automake libdistro-info-perl less nano debhelper lintian sudo cmake dmake patch patchutils
