@@ -1,7 +1,7 @@
 #debian7-build
 #Dockerfile for base package build environment
 
-FROM jpterry/debian-wheezy
+FROM debian:wheezy
 
 #Set non-interactive
 ENV DEBIAN_FRONTEND noninteractive
